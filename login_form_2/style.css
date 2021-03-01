@@ -1,0 +1,89 @@
+body{
+    background-image:url(hdd.jpeg) ;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    background-color:rgb(211, 211, 211) ;
+    width:300px ;
+    height: 400px;
+    padding:20px ;
+    padding-bottom: 70px;
+    box-shadow: 5px 5px #000000;
+    border-radius: 3px;
+}
+
+
+
+.container h1{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.up{
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+}
+
+.up input{
+    width:280px ;
+    height:30px ;
+    border-radius:0 ;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding:5px ;
+}
+
+
+.up input:nth-child(1){
+    margin-bottom:13px ;
+}
+
+.up input[type=submit]{
+    height: 40px;
+    width: 280px;
+    background-color:#3598db ;
+    font-size:17px ;
+    color: white;
+}
+
+
+
+.down h4 , h5{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.up h4{
+    font-family: sans-serif;
+}
+
+
+
+
+.sm{
+    display: grid;
+    width:280px ;
+    height:40px ;
+    gap:5px ;
+}
+
+.fb{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+    background-color: #4167B2;
+    background-image: url(fb.PNG);
+}
+
+.ig{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    background-color: #DE326C;
+    background-image: url(ig.PNG);
+}
